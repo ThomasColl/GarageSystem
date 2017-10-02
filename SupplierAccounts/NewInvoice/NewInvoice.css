@@ -1,0 +1,28 @@
+/* Name: Thomas Coll */
+/* Student Number: C00204384 */
+
+.button
+{
+    background-color: #f1f1f1;
+    padding: 1em;
+    width: 23%;
+    border-radius: 10px;
+    cursor: pointer;
+	margin: 0 auto;
+	text-align:center;
+}
+select
+{
+	width:40%;
+	float:right;
+}
+/* Used to make the text in the text area black while it is left disabled */
+textarea[disabled] 
+{
+   color: black;
+}
+a
+{
+	/* hide the underline from the Speed Shop Logo */
+	text-decoration:none;
+}

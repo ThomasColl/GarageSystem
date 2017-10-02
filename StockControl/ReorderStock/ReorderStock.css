@@ -1,0 +1,73 @@
+/*
+Name: 			Alex Matthews
+Student Number: C00208942
+Purpose:		2nd Year Project
+File:			ReorderStock.css
+*/
+
+/*Style the table*/
+table {
+	width: 100%;
+}
+td {
+	border: 1px #aaa solid;
+	cursor: pointer;
+	font-size: 75%;
+}
+
+th {
+	font-size: 80%;
+	border: 1px #aaa solid;
+	padding: 3px;
+}
+
+
+/*Remove blue underline from main heading*/
+a {
+	text-decoration: none;
+}
+
+/*Style the main div*/
+#mainDiv {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #d5ddd5;
+	padding: 50px;
+    border: 2px solid #555;
+    border-radius: 8px;
+}
+
+/**Position the buttons**/
+#button1 {
+	width: 30%;
+}
+#button2, #button3 {
+	margin-right: 5%;
+	width: 30%;
+}
+
+#quantity {
+	width: 30%;
+	float: left;
+}
+
+#addToOrder {
+    width: 30%;
+	margin-right: 5%;
+}
+
+/*increase input box height*/
+input[type="number"]{
+	padding: 10px 4px; 
+	line-height: 12px; 
+}
+
+
+#resetOrder {
+    width: 30%;
+}
+
+#search {
+	width: 30%;
+}

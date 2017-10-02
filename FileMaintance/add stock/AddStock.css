@@ -1,0 +1,29 @@
+
+/*
+Name: Cathal Brady
+Student Number: C00202493   */
+
+
+label 
+{
+	font-size: 90%;// sets the size of the font within the labels created so they are uniform on all the screens
+}
+
+select 
+{	
+    float: right;
+    clear: both;
+    width: 60.5%;
+}
+
+a
+{
+	text-decoration: none;	
+	// removes any decorations on the text for example i had a problem with the name speed
+	//shop kept on getting underlined so i used this to fix it.
+}
+#currentTime 
+{
+	float:right; // floats the current timer that was placed on the page to the right
+	margin-right: 1%;// sets the size of the timer to only 1% of the screen
+}

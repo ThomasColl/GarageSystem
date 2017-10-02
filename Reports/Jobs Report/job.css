@@ -1,0 +1,56 @@
+.invoice
+{
+	background-color: white;
+	width: 42%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+    border: 2px solid #555;
+    border-radius: 8px;
+}
+
+.buttons2  
+{
+    background-color: #f1f1f1;
+    padding: 10px;
+    width: 13%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.marginRight1
+{
+    margin-right: 4.6%;
+}
+
+.marginRight2
+{
+    margin-right: 6%;
+}
+
+.marginLeft
+{
+    margin-Left: 6%;
+}
+body
+{
+	
+	background-color:LightGreen;
+	text-align: center;
+	padding: 1em;
+}
+			
+table, th, td
+{
+	border: 1px solid black;
+	padding: 5px;
+	color: black;
+	text-align:center;
+	background-color: white;
+}
+			
+th	
+{
+	color: Black;
+	
+}
+

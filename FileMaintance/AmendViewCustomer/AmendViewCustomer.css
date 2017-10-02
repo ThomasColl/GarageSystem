@@ -1,0 +1,85 @@
+/*
+Name: 			Alex Matthews
+Student Number: C00208942
+Purpose:		2nd Year Project
+File:			AmendViewCustomer.css
+*/
+label {
+	font-size: 90%;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*Style the county select*/
+#countySelect {
+   float: right;
+   clear: both;
+   width: 61%;
+}
+
+/*Style and position the amend/view button*/
+#amendViewButton {
+	width: 48%;
+	background-color: #f1f1f1;
+	padding: 3px;
+	border-radius: 10px;
+	cursor: pointer;
+	float: right;
+
+}
+
+#amendViewButton:hover {
+	background-color: #555;
+    color: white;
+}
+
+#button1:hover, #button2:hover, #button3:hover, #button4:hover {
+	background-color: #555;
+    color: white;
+}
+
+/*Position the buttons*/
+#button1 {
+	width: 23%;
+	height: 5%;
+}
+
+#button2, #button3, #button4 {
+	margin-right: 2.4%;
+	width: 23%;
+}
+
+#search {
+	width: 48%;
+}
+
+/*Style the table*/
+table {
+	width: 100%;
+	text-align: center;
+}
+td {
+	border: 1px #aaa solid;
+	padding: 5px;
+	cursor: pointer;
+}
+
+th {
+
+	border: 1px #aaa solid;
+	padding: 7px;
+}
+
+.vshort {
+	width: 2%;
+}
+
+.short {
+	width: 25%;
+}
+
+.long {
+	width: 65%;
+}

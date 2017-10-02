@@ -1,0 +1,39 @@
+
+/*/Name: Cathal Brady
+//Student Number: C00202493   */
+
+
+label 
+{
+	font-size: 90%; // sets the size of the font within the labels created so they are uniform on all the screens
+}
+a
+{
+	text-decoration: none; 
+	// removes any decorations on the text for example i had a problem with the name speed 
+	//shop kept on getting underlined so i used this tofix it.
+	
+}
+#listbox
+{
+	float: right; // floats the listbox to the right 
+    width: 60.5%;//sets the size of the lsitbox to 60 of the screen
+}
+#FLeft
+{
+	float: left; // floats chosen variables to the left
+}
+#Description
+{
+	float: right;// floats the description 
+    background-color: #f1f1f1;// sets the color
+    padding: 10px;// sets the padding
+    width: 23%;// sets the width
+    border-radius: 10px;// sets the border radious
+    cursor: pointer;// sets the curser when searching the description
+}
+#button:hover, #button2:hover, #button3:hover, #button4:hover 
+{
+	background-color: #555;// sets when you are hovering over the database for the buttons to change color so you know they are changed
+    color: white;// sets t`he color after hovering to white so you know the system is marking it.
+}

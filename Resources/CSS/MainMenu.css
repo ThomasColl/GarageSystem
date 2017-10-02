@@ -1,0 +1,84 @@
+/* Alex Matthews and Cathal Brady CHECKED BY THE GROUP COMPLETE  */
+ul {
+	  float: left ;
+	  list-style: none;
+	  text-align: center;
+	  min-width: 13%;
+	  max-width: 13%; 
+}
+
+a {
+	  text-decoration: none;
+	  display: block;
+	  
+	  border-bottom: 2px solid #5b5b5b;
+      border-right: 2px solid #5b5b5b;
+      border-left: 2px solid #5b5b5b;
+      padding: 4%;
+      color: #000;
+	  font-size: 89%;
+}
+
+a:hover 
+{
+	  background-color: #abbaab;
+	  color: white;
+}
+
+h3 {
+	  margin: 0;
+	  padding: 5%;
+	  border-top: 2px solid #5b5b5b;
+	  border-right: 2px solid #5b5b5b;
+      border-left: 2px solid #5b5b5b;
+	  border-bottom: 2px solid #5b5b5b;
+      background-color: #99a799;
+}
+.logout 
+{
+	 float: right ;
+	 margin-right:5%;
+}
+#mainMenuNav {
+	  margin: 0 auto;
+	  width: 97%;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d5dcd5;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #abbaab; color: white;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.Alpha
+{
+	/* float: right ;
+	 margin-right:5%;*/
+	 border-top: 2px solid #5b5b5b;
+	 border-right: 2px solid #5b5b5b;
+     border-left: 2px solid #5b5b5b;
+	 border-bottom: 2px solid #5b5b5b;
+}
+.Invisible
+{
+	opacity: 0;
+}
+.Account
+{
+	 float: left ;
+	 margin-left:45%;
+}

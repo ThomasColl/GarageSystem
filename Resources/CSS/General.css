@@ -1,0 +1,136 @@
+body {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    margin: 0;
+    background: linear-gradient(to left, #abbaab, #ffffff);
+}
+
+label {
+	font-size: 90%;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #666666, #333, #666666, #ccc);
+    clear: both;
+}
+
+.greyHover:hover {
+    background-color: #555;
+    color: white;
+}
+
+/*Use this to centre align text, h1, h2 etc. */
+.centerAlign {
+    text-align: center;
+}
+
+.inputP {
+    float: right;
+    clear: both;
+    width: 60%;
+}
+
+.header {
+    font-family: Ariel;
+    text-align: center;
+    color: #babfc6;
+    text-shadow: 0 0 5px #000001, 0 0 10px #000002, 0 0 20px #000003, 0 0 30px #000004, 0 0 40px #000005;
+    font-size: 350%;
+}
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.formWidth40
+{
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #d5ddd5;
+	padding: 50px;
+    border: 2px solid #555;
+    border-radius: 8px;
+}
+ 
+
+.buttons  {
+    float: right;
+    background-color: #f1f1f1;
+    padding: 10px;
+    width: 23%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.marginRight {
+    margin-right: 2.6%;
+}
+
+nav {
+    display: table;
+    margin: 0 auto;
+}
+
+.menuBar {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+}
+
+#currentTime  {
+	font-size: 95%;
+	float: right;
+	margin-right: 1%;
+}
+
+.dropdown {
+    float: left;
+}
+
+.dropdown a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.dropdown a:hover, .dropdown:hover .dropbtn {
+    color: #abbaab;
+}
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d5dcd5;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #abbaab;
+    color: white;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*
+Dropdown Menu Reference: W3 Schools
+Link: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown_hover
+*/
+

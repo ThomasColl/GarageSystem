@@ -1,0 +1,20 @@
+/*
+Name: 			Alex Matthews
+Student Number: C00208942
+Purpose:		2nd Year Project
+File:			AddCustomer.css
+*/
+select {
+    float: right;
+    clear: both;
+    width: 60.5%;
+}
+
+a {
+	text-decoration: none;	/*Removes blue underline from the speed shop heading*/
+}
+
+
+
+
+

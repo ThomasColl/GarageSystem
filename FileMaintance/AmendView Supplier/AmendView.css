@@ -1,0 +1,48 @@
+/* Name: Thomas Coll */
+/* Student Number: C00204384 */
+
+label
+{
+	font-size:90%;
+}
+select
+{
+	width:40%;
+}
+.button
+{
+    background-color: #f1f1f1;
+    padding: 1em;
+    width: 23%;
+    border-radius: 10px;
+    cursor: pointer;
+	text-align:center;
+}
+.margin
+{
+	margin-right:1%;
+}
+.change
+{
+	background-color: #f1f1f1;
+    width: 40%;
+    border-radius: 10px;
+    cursor: pointer;
+	margin: 0 auto;
+	text-align:center;
+}
+.amendViewButton
+{
+	margin-left: 3.5%;
+	width:48%;
+	background-color: #f1f1f1;
+	padding:5px;
+	border-radius:10px;
+	cursor: pointer;
+	float:right;
+}
+a
+{
+	/* hide the underline from the Speed Shop Logo */
+	text-decoration:none;
+}

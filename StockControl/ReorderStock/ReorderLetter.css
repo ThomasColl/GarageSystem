@@ -1,0 +1,79 @@
+/*
+Name: 			Alex Matthews
+Student Number: C00208942
+Purpose:		2nd Year Project
+File:			ReorderLetter.css
+*/
+
+/*Float the speed shop address to the right*/
+#ourAddress {
+    float: right;
+}
+
+/*Style the main page to be printed*/
+#reorderLetterDiv {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 50px;
+    border: 2px solid #555;
+	overflow:hidden	/*Allows the div to resize dynamically*/
+}
+
+/*Position the order number and the footer*/
+#orderNum, #foot {
+    width: 100%;
+    text-align: center;
+}
+
+/*Style the table*/
+table {
+	width: 100%;
+}
+td {
+	border: 1px #aaa solid;
+	padding: 5px;
+	font-size: 80%;
+}
+
+th {
+	font-size: 80%;
+	border: 1px #aaa solid;	/*Grey*/
+	padding: 7px;
+}
+.long {
+	width: 60%;
+}
+
+.short {
+	width: 10%;
+}
+
+/*Style the buttons*/
+#button1, #button2 {
+	margin: auto;
+	background-color: #f1f1f1;	/*Off white*/
+    padding: 10px;
+    width: 48%;
+    border-radius: 10px;
+    cursor: pointer;
+	
+}
+
+/*Div to store the buttons*/
+#buttonDiv {
+	width: 50%;
+	margin: auto;
+
+}
+
+#button1:hover, #button2:hover {
+	background-color: #555;
+    color: white;
+}
+
+/*Remove the blue underline from the main heading*/
+a {
+	text-decoration: none;
+}

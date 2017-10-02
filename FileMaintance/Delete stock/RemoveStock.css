@@ -1,0 +1,26 @@
+ /* 
+	//Name: Cathal Brady
+	//Student Number: C00202493
+ */
+label 
+{
+	font-size: 90%;/* sets font size */
+}
+a
+{
+	text-decoration: none ;/* removes text decoration */
+}
+#listbox 
+{
+	float: right;/*  floats the box right */
+    width: 60.5%; /* sets size */
+}
+#FLeft
+{
+	float: left; /* floats those the the tag FLeft to the left */
+}
+#button:hover, #button2:hover, #button3:hover, #button4:hover 
+{
+	background-color: #555;
+    color: white;
+}
