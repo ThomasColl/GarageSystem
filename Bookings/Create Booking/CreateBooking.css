@@ -1,0 +1,76 @@
+ /* 
+	//Name: Cathal Brady
+	//Student Number: C00202493
+ */
+label 
+{
+	font-size: 90%;
+}
+a  /* sets the properties for the scroll bar */ 
+{
+	text-decoration: none;
+}
+#listbox /* sets the properties for the listbox  */
+{
+	
+	float: right;
+    
+    width: 60.5%;
+}
+.FLeft  /* that what ever is given the title FLEft is floated to the left */
+{
+	float: left;
+}
+#Description /* sets the properties for the description */
+{
+	float: right;
+    background-color: #f1f1f1;
+    padding: 10px;
+    width: 23%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+table
+ {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th /* sets the properties for the table */
+ {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even)
+ {
+    background-color: #dddddd;
+}
+
+table  /* sets the table width */
+{
+	width: 99%;
+}
+
+#Changedate /* sets the properties for the change like the location and the size */
+ {
+	float: right;
+	width: 40%;
+}
+div.scroll  /* sets the properties for the scroll bar */
+{
+    background-color: #d5ddd5;
+    width: 99%;
+    height: 250px;
+    overflow-y: scroll;
+}
+.buttons  {
+ 
+    background-color: #f1f1f1;
+    padding: 50px;
+    width: 23%;
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+/* Name: Thomas Coll */
+/* Student Number: C00204384 */
+
+.button
+{
+    background-color: #f1f1f1;
+    padding: 1em;
+    width: 23%;
+    border-radius: 10px;
+    cursor: pointer;
+	text-align:center;
+}
+.bigButton
+{
+	background-color: #f1f1f1;
+    padding: 1em;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+	text-align:center;
+}
+.flow
+{
+	/* Create a div with a scroll bar */
+	height:200px;
+	overflow-y:scroll;
+	/* https://www.w3schools.com/cssref/css3_pr_overflow-y.asp */
+}
+#large
+{
+	font-size: 30px;
+}
+table 
+{
+	/* Stopps multiple borders from overlapping and giving a more attractive appearance */
+    border-collapse: collapse;
+	width: 100%;
+}
+th
+{
+	background-color: #96ad96;
+    color: white;
+	height: 50px;
+}
+tr
+{
+	background-color: #ffffff;
+    color: black;
+}
+table, th, td 
+{
+    border: 1px solid black;
+	text-align: center;
+}
+a
+{
+	/* hide the underline from the Speed Shop Logo */
+	text-decoration:none;
+}
